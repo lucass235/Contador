@@ -1,0 +1,23 @@
+body {
+    background-color: aliceblue;
+}
+
+#contador1, .contador2 {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+    padding: 2px;
+
+}
+#contador2 {
+    background-color: blueviolet;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 2px;
+}

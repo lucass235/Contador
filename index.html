@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+</head>
+<body id="body">
+    <div id="contador">
+        <h1>Criar contador</h1>
+        <input id="titulo" type="text" placeholder="Digite o nome">
+        <button onclick="criar()">Criar contador</button>
+    </div>
+        <h1>Contador</h1>
+        <div id="contador1" onclick="contador(event)">
+        <div>
+            Contador: <label id="resultado">0</label>
+        </div>
+        <button id="zerar" onclick="zerar(event)">Zerar</button>
+    </div>
+    
+    <hr>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
